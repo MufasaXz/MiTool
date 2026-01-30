@@ -17,7 +17,8 @@ TOOLS = {
     "1": ("Unlock Bootloader", "$PREFIX/bin/miunlock"),
     "2": ("Flash Fastboot ROM", "$PREFIX/bin/miflashf"),
     "3": ("Mi Assistant", "$PREFIX/bin/miasst"),
-    "4": ("Firmware Content Extractor", "$PREFIX/bin/mifcetool")
+    "4": ("Firmware Content Extractor", "$PREFIX/bin/mifcetool"),
+    "5": ("Sideload ROM (ADB)", "$PREFIX/bin/sideload") 
 }
 
 try:

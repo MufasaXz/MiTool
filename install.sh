@@ -72,7 +72,7 @@ run_step "Installing fcetool" \
 "pip install -U fcetool"
 
 run_step "download mitool.py" \
-"curl -s "https://raw.githubusercontent.com/offici5l/MiTool/master/MT/mitool.py" -o "$PREFIX/bin/mitool" && chmod +x "$PREFIX/bin/mitool""
+"curl -s "https://raw.githubusercontent.com/MufasaXz/MiTool/refs/heads/main/MT/mitool.py" -o "$PREFIX/bin/mitool" && chmod +x "$PREFIX/bin/mitool""
 
 run_step "download miflashf.py" \
 "curl -fsS "https://raw.githubusercontent.com/offici5l/MiTool/master/MT/miflashf.py" -o "$PREFIX/bin/miflashf" && chmod +x "$PREFIX/bin/miflashf""
@@ -82,6 +82,9 @@ run_step "download mifcetool.py" \
 
 run_step "download miasst.py" \
 "curl -fsS "https://raw.githubusercontent.com/offici5l/MiTool/master/MT/miasst.py" -o "$PREFIX/bin/miasst" && chmod +x "$PREFIX/bin/miasst""
+
+run_step "download sideload.py" \
+"curl -fsS "https://raw.githubusercontent.com/MufasaXz/MiTool/refs/heads/main/MT/sideload.py" -o "$PREFIX/bin/sideload" && chmod +x "$PREFIX/bin/sideload""
 
 run_step "download miasst_termux" \
 "curl -fsS -L -o $PREFIX/bin/miasst_termux \

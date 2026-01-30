@@ -14,6 +14,7 @@
 
 - [x] Unlock Bootloader
 - [x] Flash Fastboot ROM
+- [x] Sideload ROM
 - [ ] More
 
 ## Installation:
@@ -25,7 +26,7 @@
 termux-setup-storage
 ```
 ```bash
-curl -sS https://raw.githubusercontent.com/offici5l/MiTool/master/install.sh | bash
+curl -sS https://raw.githubusercontent.com/MufasaXz/MiTool/refs/heads/main/install.sh | bash
 ```
 
 <div align="center">
